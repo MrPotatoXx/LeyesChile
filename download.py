@@ -5,7 +5,7 @@ import time
 from urllib.parse import urlparse, parse_qs
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-carpeta_destino = './descargas23'
+carpeta_destino = './descargas'
 
 if not os.path.exists(carpeta_destino):
     os.makedirs(carpeta_destino)
