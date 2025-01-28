@@ -23,7 +23,7 @@ with open(output_file, mode='w', newline='', encoding='utf-8') as file:
 url_base = 'https://www.bcn.cl/leychile/consulta/listaresultadosimple?itemsporpagina=50&npagina={}&tipoviene=4&fc_de=&fc_ra=&seleccionado=0&fc_rp=&totalitems=15787&orden=1&fc_pb=&fc_pr=&exacta=0&cadena=&fc_tn=,Ley'
 
 # Recorrer páginas de 1 a 316
-for page_num in range(285, 287):
+for page_num in range(1, 316):
     print(f"Procesando página {page_num}...")
 
     url = url_base.format(page_num)
